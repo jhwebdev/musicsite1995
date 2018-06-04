@@ -1,5 +1,6 @@
 body{
 	margin:0px;
+	user-select: none;
 }
 	
 p.words
@@ -31,7 +32,7 @@ p.links{
 
 h1.box {
 font-size: 75px;
-margin: auto;
+margin: 0px 50px 0px -100px;
 font-family: 'Petit Formal Script', cursive;
   text-shadow: 4px 4px 5px rgba(0,0,0,0.3); 
 }
@@ -59,7 +60,7 @@ vertical-align: top;
 
 .header-r {
 display: inline-block;
-padding: 120px 0px 0px 100px;
+padding: 120px 50px 0px 100px;
 
 vertical-align: top;
 width: 25%;
@@ -72,7 +73,6 @@ display: inline-block;
 padding: 0px 10px 10px 25px;
 margin: -500px 0px -225px 950px;
 width: 33%;
-border: 5px solid black;
 background-color: rgba(201, 76, 76, 0.3);
 }
 
@@ -114,7 +114,7 @@ width: 100%;
 	.topnav {
 	background-color: #33FFE6;
 	margin: 0px 80px -21px 0px;
-	width:100%
+	width:100%;
 	}
 	
 	.topnav a {
@@ -123,7 +123,7 @@ width: 100%;
 	padding: 10px 100px;
 	display: inline-block;
 	font-weight: 900;
-	
+	transition:0.5s ease-in;
 	}
 	
 	.topnav a:hover {
@@ -208,6 +208,10 @@ width: 100%;
 	background-color: #717171;
 }
 
+#boxd{
+	display: none;
+}
+
 .white_bg 
 {
     background-color: #ffffff;
@@ -221,6 +225,33 @@ width: 100%;
 	text-align: center;
 }
 
+.topnav2 {
+	
+
+	margin: 0px 200px 0px -100px;
+	width: 100%;
+	}
+	
+	
+	.topnav2 {
+	
+	margin: 0px 80px -21px 0px;
+	width:100%
+	}
+	
+	.topnav2 a {
+	color: black;
+	text-decoration: none;
+	padding: 10px 100px;
+	display: inline-block;
+	font-weight: 900;
+	
+	}
+	
+	.topnav2 a:hover {
+	color: white;
+	background-color: #555;
+	}
 
 @media screen and (max-width: 720px) {
 .body{
@@ -251,10 +282,9 @@ vertical-align: top;
 }
 
 #box7 {
-	background-color: #33BEFF;
-
+background-color: #33BEFF;
 padding: 0px;
-margin: -21px 0px -20px 0px;
+margin: -21px 0px 15px 0px;
 width: 100%;
 }
 
@@ -271,9 +301,8 @@ iframe {
 
 #video {
 width: 75%;
-
 background-color: rgba(201, 76, 76, 0.3);
-margin: 0px 50px 0px 45px;
+margin: -10px 0px -21px 45px;
 display: block;
 }
 
@@ -291,27 +320,58 @@ img {
 }
 
 .header-r {
-	margin: 0px 500px 0px -142px;
+	margin: 0px 600px 0px -120px;
 padding: 0px 0px 0px 0px;
 vertical-align: top;
-width: 25%;
+width: 0%;
+
 }
 
 #box9 {
-	background-image: url('images/soft_wave_background_310823.jpg');
-
+background-image: url('images/soft_wave_background_310823.jpg');
 padding:10px 10px 10px 10px;
 margin: 20px 0px 0px 0px;
 width: 100%;
 }
 
 	.topnav {
-	background-image: url('images/soft_wave_background_310823.jpg');
-
+	background-color: #33FFE6;
 	margin: 0px 0px 0px 0px;
 	width: 100%;
 	}
+	
+	.topnav a{
+	
+	width: 100%;
+	}
 
+.topnav2 {
+	
+
+	margin: 0px 200px 0px -100px;
+	width: 100%;
+	}
+	
+	
+	.topnav2 {
+	
+	margin: 0px 80px -21px 0px;
+	width:100%
+	}
+	
+	.topnav2 a {
+	color: black;
+	text-decoration: none;
+	padding: 10px 100px;
+	display: inline-block;
+	font-weight: 900;
+	
+	}
+	
+	.topnav2 a:hover {
+	color: white;
+	background-color: #555;
+	}
 }
 
 @media screen and (max-width:720px) {
